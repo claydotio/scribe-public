@@ -25,3 +25,15 @@ docker run \
     -d \
     -t scribe
 ```
+
+#### Logrotate
+
+You may also want to run `logrotate` on your server.
+After editing `logrotate.conf`:
+
+  - `apt-get install logrotate`
+  - copy logrotate config
+    - `src=./logrotate.conf dest=/etc/logrotate.conf`
+
+  - copy logrotate cron
+    - `src=.s/logrotate.sh dest=/etc/cron.daily/logrotate`
