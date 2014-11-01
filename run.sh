@@ -11,7 +11,7 @@ cat << EOF > /tmp/config.json
   },
   "files": [
     {
-      "paths": [ "/var/log/clay/*.log" ],
+      "paths": [ "/var/log/app/*.log" ],
       "fields": { "type": "stdin" }
     }
   ]

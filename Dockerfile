@@ -1,11 +1,6 @@
-# logstash-forwarder
-#
-# A tool to collect logs locally in preparation for processing elsewhere
-#
-# VERSION               0.3.1
+# Scribe
 
 FROM      debian:sid
-MAINTAINER Deni Bertovic "deni@kset.org"
 
 ENV DEBIAN_FRONTEND noninteractive
 
